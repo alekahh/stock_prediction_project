@@ -8,12 +8,14 @@
    cd stock_prediction_project
 
 2. Create and activate the virtual environment
-
-python3 -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 
 3. Install dependencies
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-Run the main script
-python scripts/all_companies_transformer.py
+4. Run the main script
+   ```bash
+   python scripts/all_companies_transformer.py
